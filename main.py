@@ -11,17 +11,17 @@ from datetime import datetime
 
 
 # Configurações do dispositivo e MQTT
-device_ip = "192.168.15.9"
-username = "ms.mateusmartins@gmail.com"
-password = "tplinkTapo131"
-BROKER_IP = "192.168.15.12"
+device_ip = "DEVICE_IP"
+username = "USERNAME"
+password = "DEVICE_PASSWORD"
+BROKER_IP = "BROKER_IP"
 BROKER_PORT = 1883
 TOPICO_CONSUMO = "DIME"
 TOPICO_ALERTA = "DIME-ALERTA"
 LIMITE_CONSUMO = 40
-EMAIL_REMETENTE = "ms.mateusmartins@gmail.com"
-EMAIL_SENHA = "fomkvmdvfqxtdqcg"
-EMAIL_DESTINATARIO = "mss.mateusmartins@icloud.com"
+EMAIL_REMETENTE = "EMAIL_REMETENTE"
+EMAIL_SENHA = "APP_SENHA_EMAIL"
+EMAIL_DESTINATARIO = "EMAIL_DESTINATARIO"
 
 p110 = PyP110.P110(device_ip, username, password)  # Cria o objeto do dispositivo
 
