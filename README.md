@@ -2,7 +2,7 @@ DIME - Dispositivo Inteligente de Monitoramento de Energia
 
 🛠 Descrição do Projeto
 
-O DIME é um dispositivo IoT desenvolvido para monitorar e otimizar o consumo de energia elétrica em ambientes residenciais e comerciais. Utilizando o Raspberry Pi 3 Model B+ e a tomada inteligente Tapo P110, o DIME coleta dados de consumo, processa informações e envia alertas e relatórios para os usuários.
+O DIME é um dispositivo IoT desenvolvido para monitorar e otimizar o consumo de energia elétrica em ambientes residenciais e comerciais. Utilizando o Raspberry Pi 3 Model B+ e o sensor Tapo P110, o DIME coleta dados de consumo, processa informações e envia alertas e relatórios para os usuários.
 
 ⚙️ Funcionamento e Uso
 
@@ -40,7 +40,7 @@ A estrutura do código é modular e contém threads para gerenciar comunicação
 🔧 Hardware Utilizado
 
 Raspberry Pi 3 Model B+: Placa principal para execução do software.
-Tapo P110: Tomada inteligente para medição do consumo de energia.
+Tapo P110: sensor para medição do consumo de energia.
 Fonte de Alimentação: Para o Raspberry Pi.
 Cabos Ethernet/Wi-Fi: Para comunicação em rede.
 📡 Documentação de Interfaces e Protocolos
@@ -54,7 +54,7 @@ SMTP: Para envio de e-mails com relatórios e notificações.
 🌐 Configuração de Comunicação/Controle
 
 Requisitos:
-Rede Wi-Fi para conectar o Raspberry Pi e a tomada Tapo P110.
+Rede Wi-Fi para conectar o Raspberry Pi e a sensor Tapo P110.
 MQTT Broker configurado (Mosquitto ou outro de sua preferência).
 Conta de e-mail configurada para envio de notificações.
 Passos de Configuração:
