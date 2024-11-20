@@ -7,7 +7,7 @@ O DIME é um dispositivo IoT desenvolvido para monitorar e otimizar o consumo de
 ⚙️ Funcionamento e Uso
 
 Como funciona:
-Monitoramento de Consumo: A tomada inteligente Tapo P110 captura os dados de consumo energético.
+Monitoramento de Consumo: O sensor Tapo P110 captura os dados de consumo energético.
 Processamento: O Raspberry Pi coleta esses dados, processa-os e os armazena localmente.
 Comunicação: Dados são enviados e recebidos por meio do protocolo MQTT.
 Alertas e Relatórios: Relatórios são gerados e enviados via e-mail para os usuários.
